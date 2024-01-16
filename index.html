@@ -8,21 +8,33 @@
 </head>
 <body>
     <header>
-        <h1>Forest Pictures!</h1>
+        <h1 id="headline">Forest Pictures</h1>
     </header>
     <main>
-        <img class="big" src="img/Forest-pic1.webp" alt="picture of a river in a forest">
-        <img class="small" src="img/Forest-pic2.webp" alt="picture of a path through a forest">
-        <img class="small" src="img/Forest-pic3.webp" alt="picture of a path trough a forest">
-        <img class="big" src="img/Forest-pic4.webp" alt="picture of an island with trees">
-        <img class="small" src="img/Forest-pic5.webp" alt="picture of a path through a forest">
-        <img class="big" src="img/Forest-pic6.webp" alt="picture of a sapling on moss">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Meny</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a id="button1" onclick="hideheadline()">Hide Headline</a>
+                <a id="button2" onclick="showheadline()">Show Headline</a>
+            </div>
+        </div>
+        <div class="flex">
+            <img class="big" src="img/Forest-pic1.webp" alt="picture of a river in a forest">
+            <img class="small" src="img/Forest-pic2.webp" alt="picture of a path through a forest">
+            <img class="small" src="img/Forest-pic3.webp" alt="picture of a path trough a forest">
+            <img class="big" src="img/Forest-pic4.webp" alt="picture of an island with trees">
+            <img class="small" src="img/Forest-pic5.webp" alt="picture of a path through a forest">
+            <img class="big" src="img/Forest-pic6.webp" alt="picture of a sapling on moss">
+        </div>
+
+
 
 
 
     </main>
     <footer>
-
+        <p> ***</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
